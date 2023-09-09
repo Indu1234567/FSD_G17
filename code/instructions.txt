@@ -1,2 +1,4 @@
-Use any editor.
-Example: Notepad
+Practice
+--------
+Create an HTML page.
+List down any 20 HTML tags: give small description and how to use the tag(give example)
