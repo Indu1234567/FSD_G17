@@ -1,0 +1,63 @@
+/* * {
+    color: blueviolet;
+} */
+
+p {
+  color: red;
+}
+
+h1 {
+    color: green;
+}
+
+a {
+    color:aqua;
+}
+
+span {
+    color: yellow;
+}
+
+.newcolor{
+    color: brown;
+}
+
+#mypara{
+    color: chartreuse;
+}
+
+div p{
+    color: chocolate;
+}
+
+div a{
+    color: crimson;
+}
+
+div > a{
+    color: cyan;
+}
+
+p > a{
+    color: darkorchid;
+}
+
+p ~ a{
+    color: darksalmon;
+}
+
+a ~ p{
+    color: brown;
+}
+
+span + a{
+    color: blue;
+}
+
+a[href="www.bbb.com"]{
+    color: blue;
+}
+
+input[type="password"]{
+    color: chocolate;
+}
