@@ -1,2 +1,4 @@
-Use any editor.
-Example: Notepad
+Assignment
+----------
+1) Complete https://www.freecodecamp.org/learn/2022/responsive-web-design/#learn-html-by-building-a-cat-photo-app
+2) Create an HTML file with as many tags as possible and appy external, internal and inline styles.

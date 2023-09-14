@@ -1,0 +1,29 @@
+div {
+  color: hsla(0, 100%, 100%, 0.5);
+  /* background-color: rgb(47, 47, 126); */
+  background-color: rgba(255, 0, 0, 0.5);
+}
+
+#mypara {
+  /* font-family: "Times New Roman", Times, serif; */
+  /* font-family: sans-serif; */
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  font-style: italic;
+}
+
+#another{
+    font-weight: bold;
+    font-style: oblique;
+    text-transform: lowercase;
+    text-decoration: underline;
+    text-align: justify;
+}
+
+#leftaligned{
+    font-weight: bold;
+    font-style: oblique;
+    text-transform: lowercase;
+    text-decoration: underline;
+    text-align: left;
+}
