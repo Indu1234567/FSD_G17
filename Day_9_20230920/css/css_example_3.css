@@ -1,0 +1,44 @@
+a:link{
+    color: green;
+}
+
+a:visited{
+    color: red;
+}
+
+p:hover{
+    color: blue;
+}
+
+button:active{
+    color: yellow;
+}
+
+input:focus{
+    color: green;
+}
+
+div{
+    /* width: 200px;
+    height: 200px; */
+    /* max-height: 100px; */
+    /* overflow: hidden; */
+    min-height: 200px;
+    /* border: 1px solid red; */
+    /* border-width: 10px; */
+    /* border-width: 1px 5px 10px 15px; */
+    border-width: 10px 20px 10px 20px;
+    border-top-width: 10px;
+    border-left-width: 20px;
+    border-bottom-width: 30px;
+    border-right-width: 40px;
+    /* border-width: 10px 20px; */
+    border-style: solid;
+    border-color: yellow;
+    padding: 20px;
+    margin: 20px;
+}
+
+body{
+    margin: 0;
+}
