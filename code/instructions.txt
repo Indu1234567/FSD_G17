@@ -1,2 +1,2 @@
-Use any editor.
-Example: Notepad
+Practice styling lists and tables.
+
