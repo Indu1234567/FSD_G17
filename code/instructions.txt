@@ -1,2 +1,2 @@
-Use any editor.
-Example: Notepad
+Practice postion, z-index and float properties.
+Complete assignment.
