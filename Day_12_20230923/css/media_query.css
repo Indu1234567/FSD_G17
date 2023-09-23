@@ -1,0 +1,21 @@
+p {
+  color: red;
+}
+
+@media screen and (max-width: 600px) {
+  p {
+    color: green;
+  }
+}
+
+@media only screen and (orientation: portrait) {
+  p {
+    color: blue;
+  }
+}
+
+@media print {
+  p {
+    color: purple;
+  }
+}
