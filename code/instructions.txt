@@ -1,2 +1,3 @@
-Use any editor.
-Example: Notepad
+Visit HTML specifications page.
+https://html.spec.whatwg.org/
+
