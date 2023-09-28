@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Resume of Abc</title>
+        <meta charset="UTF-8" >
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li><a href="#aboutme">About Me</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#workhistory">Work History</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#mailingaddress">Mailing Address</a></li>
+                <li><a href="#contactme">Contact Me</a></li>
+            </ul>
+        </nav>
+        <main>
+            <h1>Resume</h1>
+            <section id="aboutme">
+                <h2>Abc Defg</h2>
+                <p>Developer, Designer</p>
+                <dl>
+                    <dt>Website</dt>
+                    <dd><a href="abc.abc.com" target="_blank">abc.abc.com</a></dd>
+                    <dt>Phone</dt>
+                    <dd>1234567890</dd>
+                    <dt>Twitter</dt>
+                    <dd><a href="www.twitter.com" target="_blank">abcdef</a></dd>
+                </dl>
+            </section>
+
+            <article>  
+                <header>
+                    <p>About</p>
+                </header>          
+                <p>Hi! I am Abc Defg. Lorem Ipsum is simply dummy text of the printing and typesetting industry! Programming is my <em>passion</em>.
+                I am happy to <strong>work with you</strong>.</p>
+                <aside><small>This is my motto.</small></aside>
+                <footer>
+                    <p>Contact Me</p>
+                </footer>
+            </article>
+
+            <section id="services">
+                <h2>Services</h2> 
+                <ul>
+                    <li>Web Development</li>
+                    <li>App Development</li>
+                </ul>
+            </section>
+
+            <section id="skills">
+                <h2>Skills</h2>
+                <ul> 
+                    <li lang="en">
+                        HTML
+                        Hypertext Markup Language
+                    </li>
+                    <li class="second-li">
+                        CSS
+                        Cacading Style Sheet
+                    </li>
+                    <li lang="es">
+                        JS
+                        JavaScript
+                    </li>
+                </ul>
+            </section>
+
+            <section id="workhistory">
+                <h2>Work History</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Role</th>
+                            <th>Company</th>
+                            <th>Years</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>UX/UI Designer</td>
+                            <td class="red bold">XYZ Corp</td>
+                            <td>3</td>
+                        </tr>
+                        <tr>
+                            <td>Web Developer</td>
+                            <td class="red">ABC Corp</td>
+                            <td>5</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <th colspan="2">Total</th>
+                            <td>8</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </section>
+
+            <!-- TODO: Add pictures -->
+            <section id="portfolio">
+                <h2>Portfolio</h2>
+            </section>
+
+            <section id="testimonials">
+                <h2>Testimonials</h2><!--1--><!--NA-->
+                <blockquote><!--2--><!--1-->
+                    <p>Contrary to popular belief, Lorem Ipsum is not simply random text.</p>
+                </blockquote>
+                <blockquote><!--3--><!--2-->
+                    <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s!</p>
+                </blockquote>
+            </section>
+
+            <section id="mailingaddress">
+                <h2>Mailing Address</h2>
+                <p>
+                    <address>
+                        Address line 1,<br />
+                        City, State, India<br>
+                        Pin - 123456<br>
+                        <!-- &lt;&lt;some text&gt;&gt; -->
+                    </address>
+                </p>
+            </section>
+            <section id="contactme">
+                <form action="dosomething.html" method="POST">
+                    <p>
+                        <label for="name">Name</label>
+                        <input type="text" name="name" id="name" autocomplete="off">
+                    </p>
+                    <p>
+                        <label>Email <input type="email" name="email"  autocomplete="off"></label><br>
+                    </p>
+                    <p>
+                        <label>Comment <textarea name="comment" id="comment" cols="30" rows="5"></textarea></label>
+                    </p>
+                    <p>
+                        <label for="purpose">Purpose </label>
+                        <select name="purpose" id="purpose"><!--multiple-->
+                            <option value="app">App development</option>
+                            <option value="website">Website development</option>
+                            <option value="contract">New contract</option>
+                        </select>
+                    </p>
+                    <fieldset>
+                        <legend>Best time to contact</legend>
+                        <p><label><input type="radio" name="time" value="morning">Morning</label></p>
+                        <p><label><input type="radio" name="time" value="afternoon">Afternoon</label></p>
+                        <p><label><input type="radio" name="time" value="evening">Evening</label></p>
+                        <p><label><input type="checkbox" name="urgent" id="urgent"> Urgent</label></p>
+                    </fieldset>
+                    <p><input type="submit" value="GO"></p>
+                </form>
+            </section>
+        </main>
+    </body>
+</html>
+
+
